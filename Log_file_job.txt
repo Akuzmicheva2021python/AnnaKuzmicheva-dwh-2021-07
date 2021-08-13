@@ -1,0 +1,176 @@
+2021/08/12 22:30:54 - Spoon - Starting job...
+2021/08/12 22:30:54 - dwh_itog_job_exec - Start of job execution
+2021/08/12 22:30:54 - dwh_itog_job_exec - Starting entry [Transformation dim_aircrafts]
+2021/08/12 22:30:54 - Transformation dim_aircrafts - Using run configuration [Pentaho local]
+2021/08/12 22:30:54 - Transformation dim_aircrafts - Running transformation using the Kettle execution engine
+2021/08/12 22:30:54 - dwh_itog_dim_aircrafts - Dispatching started for transformation [dwh_itog_dim_aircrafts]
+2021/08/12 22:30:54 - Table ERR_rows aircrafts.0 - Connected to database [db_airflights] (commit=1000)
+2021/08/12 22:30:54 - Table ERR_rows airports.0 - Connected to database [db_airflights] (commit=1000)
+2021/08/12 22:30:54 - Get system info.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2021/08/12 22:30:54 - Get variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/08/12 22:30:54 - Table AirPort.0 - Finished reading query, closing connection.
+2021/08/12 22:30:54 - Table AirPort.0 - Finished processing (I=104, O=0, R=0, W=104, U=0, E=0)
+2021/08/12 22:30:54 - Table AirCraft.0 - Finished reading query, closing connection.
+2021/08/12 22:30:54 - Table AirCraft.0 - Finished processing (I=8, O=0, R=1, W=8, U=0, E=0)
+2021/08/12 22:30:54 - Join rows 2.0 - Finished processing (I=0, O=0, R=105, W=104, U=0, E=0)
+2021/08/12 22:30:54 - Join rows 1.0 - Finished processing (I=0, O=0, R=9, W=8, U=0, E=0)
+2021/08/12 22:30:54 - Data validator airports.0 - Finished processing (I=0, O=0, R=104, W=104, U=0, E=0)
+2021/08/12 22:30:54 - DB lookup aircrafts.0 - Finished processing (I=8, O=0, R=8, W=8, U=0, E=0)
+2021/08/12 22:30:54 - Dimension airports.0 - Finished processing (I=104, O=0, R=104, W=104, U=0, E=0)
+2021/08/12 22:30:54 - Data validator aircrafts.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2021/08/12 22:30:54 - Dimension aircrafts.0 - Finished processing (I=8, O=0, R=8, W=8, U=0, E=0)
+2021/08/12 22:30:54 - dwh_itog_job_exec - Starting entry [Transformation dim_pass]
+2021/08/12 22:30:54 - Transformation dim_pass - Using run configuration [Pentaho local]
+2021/08/12 22:30:54 - Transformation dim_pass - Running transformation using the Kettle execution engine
+2021/08/12 22:30:54 - dwh_itog_dim_pass - Dispatching started for transformation [dwh_itog_dim_pass]
+2021/08/12 22:30:54 - Table ERR_rows.0 - Connected to database [db_airflights] (commit=1000)
+2021/08/12 22:30:55 - Get variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/08/12 22:48:43 - Table Passengers.0 - linenr 50000
+2021/08/12 22:52:56 - Data validator.0 - Linenr 50000
+2021/08/12 22:52:56 - Dimension Passengers.0 - linenr 50000
+2021/08/12 23:09:41 - Table Passengers.0 - linenr 100000
+2021/08/12 23:13:15 - Data validator.0 - Linenr 100000
+2021/08/12 23:13:26 - Dimension Passengers.0 - linenr 100000
+2021/08/12 23:27:46 - Table Passengers.0 - linenr 150000
+2021/08/12 23:31:46 - Data validator.0 - Linenr 150000
+2021/08/12 23:36:49 - Dimension Passengers.0 - linenr 150000
+2021/08/12 23:50:15 - Table Passengers.0 - linenr 200000
+2021/08/12 23:59:46 - Data validator.0 - Linenr 200000
+2021/08/13 00:05:48 - Dimension Passengers.0 - linenr 200000
+2021/08/13 00:10:04 - Table Passengers.0 - Finished reading query, closing connection.
+2021/08/13 00:10:04 - Table Passengers.0 - Finished processing (I=236017, O=0, R=1, W=236017, U=0, E=0)
+2021/08/13 00:16:09 - JSON contacts.0 - Finished processing (I=236017, O=0, R=236017, W=236017, U=0, E=0)
+2021/08/13 00:20:29 - Data validator.0 - Finished processing (I=0, O=0, R=236017, W=236017, U=0, E=0)
+2021/08/13 00:25:27 - Dimension Passengers.0 - Finished processing (I=236017, O=101240, R=236017, W=236017, U=0, E=0)
+2021/08/13 00:25:27 - dwh_itog_job_exec - Starting entry [Transformation dim_tarif]
+2021/08/13 00:25:27 - Transformation dim_tarif - Using run configuration [Pentaho local]
+2021/08/13 00:25:27 - Transformation dim_tarif - Running transformation using the Kettle execution engine
+2021/08/13 00:25:27 - dwh_itog_dim_tarif - Dispatching started for transformation [dwh_itog_dim_tarif]
+2021/08/13 00:25:27 - Table ERR_rows.0 - Connected to database [db_airflights] (commit=1000)
+2021/08/13 00:25:27 - Get variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/08/13 00:25:38 - Table DimTarif.0 - Finished reading query, closing connection.
+2021/08/13 00:25:38 - Table DimTarif.0 - Finished processing (I=25065, O=0, R=1, W=25065, U=0, E=0)
+2021/08/13 00:26:03 - Data validator.0 - Finished processing (I=0, O=0, R=25065, W=25065, U=0, E=0)
+2021/08/13 00:26:45 - Dimension lookup/update.0 - Finished processing (I=25065, O=24349, R=25065, W=25065, U=0, E=0)
+2021/08/13 00:26:45 - dwh_itog_job_exec - Starting entry [Transformation fact_flights]
+2021/08/13 00:26:45 - Transformation fact_flights - Using run configuration [Pentaho local]
+2021/08/13 00:26:45 - Transformation fact_flights - Running transformation using the Kettle execution engine
+2021/08/13 00:26:45 - dwh_itog_fact_flights - Dispatching started for transformation [dwh_itog_fact_flights]
+2021/08/13 00:26:46 - Table output fact_flights.0 - Connected to database [db_airflights] (commit=1000)
+2021/08/13 00:26:46 - Table ERR_rows.0 - Connected to database [db_airflights] (commit=1000)
+2021/08/13 00:26:46 - Get variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/08/13 00:26:53 - Table input flights.0 - linenr 50000
+2021/08/13 00:27:41 - Data validator.0 - Linenr 50000
+2021/08/13 00:28:28 - Combination dim_aircrafts.0 - linenr 50000
+2021/08/13 00:29:18 - Combination dim_airports start.0 - linenr 50000
+2021/08/13 00:30:06 - Combination dim_airports finish.0 - linenr 50000
+2021/08/13 00:30:54 - Table input flights.0 - linenr 100000
+2021/08/13 00:30:54 - Combination dim_passengers.0 - linenr 50000
+2021/08/13 00:30:54 - Combination dim_canendar.0 - linenr 50000
+2021/08/13 00:30:54 - Select values.0 - linenr 50000
+2021/08/13 00:30:55 - Table output fact_flights.0 - linenr 50000
+2021/08/13 00:31:42 - Data validator.0 - Linenr 100000
+2021/08/13 00:32:29 - Combination dim_aircrafts.0 - linenr 100000
+2021/08/13 00:33:15 - Combination dim_airports start.0 - linenr 100000
+2021/08/13 00:34:02 - Combination dim_airports finish.0 - linenr 100000
+2021/08/13 00:34:49 - Table input flights.0 - linenr 150000
+2021/08/13 00:34:49 - Combination dim_passengers.0 - linenr 100000
+2021/08/13 00:34:49 - Combination dim_canendar.0 - linenr 100000
+2021/08/13 00:34:49 - Select values.0 - linenr 100000
+2021/08/13 00:34:49 - Table output fact_flights.0 - linenr 100000
+2021/08/13 00:35:37 - Data validator.0 - Linenr 150000
+2021/08/13 00:36:23 - Combination dim_aircrafts.0 - linenr 150000
+2021/08/13 00:37:10 - Combination dim_airports start.0 - linenr 150000
+2021/08/13 00:37:57 - Combination dim_airports finish.0 - linenr 150000
+2021/08/13 00:38:44 - Table input flights.0 - linenr 200000
+2021/08/13 00:38:44 - Combination dim_passengers.0 - linenr 150000
+2021/08/13 00:38:44 - Combination dim_canendar.0 - linenr 150000
+2021/08/13 00:38:44 - Select values.0 - linenr 150000
+2021/08/13 00:38:45 - Table output fact_flights.0 - linenr 150000
+2021/08/13 00:39:31 - Data validator.0 - Linenr 200000
+2021/08/13 00:40:18 - Combination dim_aircrafts.0 - linenr 200000
+2021/08/13 00:41:05 - Combination dim_airports start.0 - linenr 200000
+2021/08/13 00:41:53 - Combination dim_airports finish.0 - linenr 200000
+2021/08/13 00:42:40 - Table input flights.0 - linenr 250000
+2021/08/13 00:42:40 - Combination dim_canendar.0 - linenr 200000
+2021/08/13 00:42:40 - Select values.0 - linenr 200000
+2021/08/13 00:42:40 - Combination dim_passengers.0 - linenr 200000
+2021/08/13 00:42:40 - Table output fact_flights.0 - linenr 200000
+2021/08/13 00:43:28 - Data validator.0 - Linenr 250000
+2021/08/13 00:44:14 - Combination dim_aircrafts.0 - linenr 250000
+2021/08/13 00:45:01 - Combination dim_airports start.0 - linenr 250000
+2021/08/13 00:45:49 - Combination dim_airports finish.0 - linenr 250000
+2021/08/13 00:46:36 - Table input flights.0 - linenr 300000
+2021/08/13 00:46:36 - Combination dim_canendar.0 - linenr 250000
+2021/08/13 00:46:36 - Select values.0 - linenr 250000
+2021/08/13 00:46:36 - Combination dim_passengers.0 - linenr 250000
+2021/08/13 00:46:36 - Table output fact_flights.0 - linenr 250000
+2021/08/13 00:47:23 - Data validator.0 - Linenr 300000
+2021/08/13 00:48:10 - Combination dim_aircrafts.0 - linenr 300000
+2021/08/13 00:48:57 - Combination dim_airports start.0 - linenr 300000
+2021/08/13 00:49:44 - Combination dim_airports finish.0 - linenr 300000
+2021/08/13 00:50:31 - Table input flights.0 - linenr 350000
+2021/08/13 00:50:31 - Combination dim_passengers.0 - linenr 300000
+2021/08/13 00:50:31 - Combination dim_canendar.0 - linenr 300000
+2021/08/13 00:50:31 - Select values.0 - linenr 300000
+2021/08/13 00:50:31 - Table output fact_flights.0 - linenr 300000
+2021/08/13 00:51:19 - Data validator.0 - Linenr 350000
+2021/08/13 00:52:06 - Combination dim_aircrafts.0 - linenr 350000
+2021/08/13 00:52:53 - Combination dim_airports start.0 - linenr 350000
+2021/08/13 00:53:40 - Combination dim_airports finish.0 - linenr 350000
+2021/08/13 00:54:28 - Table input flights.0 - linenr 400000
+2021/08/13 00:54:28 - Combination dim_passengers.0 - linenr 350000
+2021/08/13 00:54:28 - Combination dim_canendar.0 - linenr 350000
+2021/08/13 00:54:28 - Select values.0 - linenr 350000
+2021/08/13 00:54:28 - Table output fact_flights.0 - linenr 350000
+2021/08/13 00:55:15 - Data validator.0 - Linenr 400000
+2021/08/13 00:56:02 - Combination dim_aircrafts.0 - linenr 400000
+2021/08/13 00:56:49 - Combination dim_airports start.0 - linenr 400000
+2021/08/13 00:57:37 - Combination dim_airports finish.0 - linenr 400000
+2021/08/13 00:58:24 - Table input flights.0 - linenr 450000
+2021/08/13 00:58:24 - Combination dim_passengers.0 - linenr 400000
+2021/08/13 00:58:24 - Combination dim_canendar.0 - linenr 400000
+2021/08/13 00:58:24 - Select values.0 - linenr 400000
+2021/08/13 00:58:24 - Table output fact_flights.0 - linenr 400000
+2021/08/13 00:59:12 - Data validator.0 - Linenr 450000
+2021/08/13 00:59:58 - Combination dim_aircrafts.0 - linenr 450000
+2021/08/13 01:00:44 - Combination dim_airports start.0 - linenr 450000
+2021/08/13 01:01:31 - Combination dim_airports finish.0 - linenr 450000
+2021/08/13 01:02:17 - Table input flights.0 - linenr 500000
+2021/08/13 01:02:17 - Combination dim_passengers.0 - linenr 450000
+2021/08/13 01:02:17 - Combination dim_canendar.0 - linenr 450000
+2021/08/13 01:02:17 - Select values.0 - linenr 450000
+2021/08/13 01:02:17 - Table output fact_flights.0 - linenr 450000
+2021/08/13 01:03:05 - Data validator.0 - Linenr 500000
+2021/08/13 01:03:52 - Combination dim_aircrafts.0 - linenr 500000
+2021/08/13 01:04:38 - Combination dim_airports start.0 - linenr 500000
+2021/08/13 01:05:23 - Combination dim_airports finish.0 - linenr 500000
+2021/08/13 01:06:10 - Table input flights.0 - linenr 550000
+2021/08/13 01:06:10 - Combination dim_passengers.0 - linenr 500000
+2021/08/13 01:06:10 - Combination dim_canendar.0 - linenr 500000
+2021/08/13 01:06:10 - Select values.0 - linenr 500000
+2021/08/13 01:06:10 - Table output fact_flights.0 - linenr 500000
+2021/08/13 01:06:36 - Table input flights.0 - Finished reading query, closing connection.
+2021/08/13 01:06:36 - Table input flights.0 - Finished processing (I=555602, O=0, R=1, W=555602, U=0, E=0)
+2021/08/13 01:06:56 - Data validator.0 - Linenr 550000
+2021/08/13 01:07:22 - Data validator.0 - Finished processing (I=0, O=0, R=555602, W=555602, U=0, E=0)
+2021/08/13 01:07:42 - Combination dim_aircrafts.0 - linenr 550000
+2021/08/13 01:08:08 - Combination dim_aircrafts.0 - Finished processing (I=8, O=0, R=555602, W=555602, U=0, E=0)
+2021/08/13 01:08:29 - Combination dim_airports start.0 - linenr 550000
+2021/08/13 01:08:55 - Combination dim_airports start.0 - Finished processing (I=94, O=0, R=555602, W=555602, U=0, E=0)
+2021/08/13 01:09:15 - Combination dim_airports finish.0 - linenr 550000
+2021/08/13 01:09:41 - Combination dim_airports finish.0 - Finished processing (I=94, O=0, R=555602, W=555602, U=0, E=0)
+2021/08/13 01:10:01 - Combination dim_passengers.0 - linenr 550000
+2021/08/13 01:10:01 - Combination dim_canendar.0 - linenr 550000
+2021/08/13 01:10:01 - Select values.0 - linenr 550000
+2021/08/13 01:10:01 - Table output fact_flights.0 - linenr 550000
+2021/08/13 01:10:26 - Combination dim_passengers.0 - Finished processing (I=236059, O=0, R=555602, W=555602, U=0, E=0)
+2021/08/13 01:10:26 - Combination dim_canendar.0 - Finished processing (I=8651, O=0, R=555602, W=555602, U=0, E=0)
+2021/08/13 01:10:26 - Select values.0 - Finished processing (I=0, O=0, R=555602, W=555602, U=0, E=0)
+2021/08/13 01:10:26 - Table output fact_flights.0 - Finished processing (I=0, O=555602, R=555602, W=555602, U=0, E=0)
+2021/08/13 01:10:26 - dwh_itog_job_exec - Finished job entry [Transformation fact_flights] (result=[true])
+2021/08/13 01:10:26 - dwh_itog_job_exec - Finished job entry [Transformation dim_tarif] (result=[true])
+2021/08/13 01:10:26 - dwh_itog_job_exec - Finished job entry [Transformation dim_pass] (result=[true])
+2021/08/13 01:10:26 - dwh_itog_job_exec - Finished job entry [Transformation dim_aircrafts] (result=[true])
+2021/08/13 01:10:26 - dwh_itog_job_exec - Job execution finished
+2021/08/13 01:10:26 - Spoon - Job has ended.
